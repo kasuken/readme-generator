@@ -4,7 +4,7 @@
 
     public string License { get; set; }
 
-    public bool projetLogoYesNo { get; set; }
+    public bool projectLogoYesNo { get; set; }
 
     public string ProjectLogo { get; set; }
 
@@ -17,4 +17,6 @@
     public bool DemoImageYesNo { get; set; }
 
     public string DemoImageUrl { get; set; }
+
+    public bool ContributingYesNo { get; set; }
 }

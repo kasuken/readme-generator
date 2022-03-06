@@ -7,7 +7,6 @@ AnsiConsole.Write(
      .Centered()
      .Color(Color.White));
 
-
 answers.ProjectName = AnsiConsole.Prompt<string>(
     new TextPrompt<string>("Enter the [green]project name[/]?")
     );
@@ -21,9 +20,9 @@ answers.License = AnsiConsole.Prompt(
             "MIT", "Apache","GPL"
         }));
 
-answers.projetLogoYesNo = AnsiConsole.Confirm("Do you have a project logo?");
+answers.projectLogoYesNo = AnsiConsole.Confirm("Do you have a project logo?");
 
-if (answers.projetLogoYesNo)
+if (answers.projectLogoYesNo)
 {
     answers.ProjectLogo = AnsiConsole.Prompt<string>(
         new TextPrompt<string>("Enter the image url of the project logo (leave blank if none)")
@@ -31,7 +30,7 @@ if (answers.projetLogoYesNo)
 }
 
 answers.ShortDescription = AnsiConsole.Prompt<string>(
-    new TextPrompt<string>("Enter the short description (It should be short, concise to hook the reader)")
+    new TextPrompt<string>("Enter the short description (it should be short, concise to hook the reader)")
     );
 
 answers.ImageYesNo = AnsiConsole.Confirm("Do you have an image for the project?");
@@ -52,3 +51,12 @@ if (answers.DemoImageYesNo)
         );
 }
 
+answers.ContributingYesNo = AnsiConsole.Confirm("Do you want to add a Contributing section?");
+
+AnsiConsole.Status()
+    .Start("Generating README...", ctx =>
+    {
+        string readmePath = Directory.GetCurrentDirectory();
+
+
+    });
