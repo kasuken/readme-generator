@@ -1,5 +1,5 @@
 
-# README genrator
+# README generator
 
 Create a simple README for your next project in 5 seconds
 
