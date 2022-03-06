@@ -39,6 +39,9 @@ Install dependencies
 ```console
   dotnet run
 ```
+## Demo
+
+![4ff4ce0e-2cd0-4f2c-92b4-2c9e0cb77a56](https://user-images.githubusercontent.com/2757486/156940747-7194a978-ab1c-44d8-9a40-da0700afd5ea.gif)
 
 ## Tech Stack
 
