@@ -1,3 +1,4 @@
+![image](https://user-images.githubusercontent.com/2757486/156940611-8dc94260-84e3-4706-9f25-630fc783a633.png)
 
 # README generator
 
