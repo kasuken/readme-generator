@@ -3,35 +3,41 @@
 
 Create a simple README for your next project in 5 seconds
 
-
 ## Installation
 
 Install readme-generator with NuGet as global tool
 
-```bash
-  dotnet install readme-generator
+```console
+  dotnet tool install --global readme-generator
 ```
-    
+
+## How to use it
+
+As a global dotnet tool, after the installation, you can launch the tool with the following command:
+
+```console
+  readme-generator
+```
+
 ## Run Locally
 
 Clone the project
 
-```bash
+```console
   git clone https://github.com/kasuken/readme-generator
 ```
 
 Go to the project directory
 
-```bash
+```console
   cd readme-generator
 ```
 
 Install dependencies
 
-```bash
+```console
   dotnet run
 ```
-
 
 ## Tech Stack
 
